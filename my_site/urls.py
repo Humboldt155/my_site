@@ -15,8 +15,25 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from rest_framework import routers, serializers, viewsets
+from models_table.models import DepartmentAdeo
+
+class DepartmentAdeoSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = DepartmentAdeo
+        fields = ('code', 'name')
+
+class DepartmentAdeoViewSet(viewsets.ModelViewSet):
+    queryset = DepartmentAdeo.objects.all()
+    serializer_class = DepartmentAdeoSerializer
+
+router = routers.DefaultRouter()
+
+router.register(r'departments_adeo', DepartmentAdeoViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^models_table/', include('models_table.urls')),
+    url(r'^', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

@@ -137,3 +137,8 @@ class Link(models.Model):
 
     def __str__(self):
         return self.link_name
+
+class LMCodeAttributeValue(models.Model):
+    lm_code = models.ForeignKey(LMCode, on_delete=models.PROTECT)
+    attribute = models.ForeignKey(Attribute, on_delete=models.PROTECT)
+    value = models.CharField(max_length=200)

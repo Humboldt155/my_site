@@ -9,6 +9,7 @@ from .models import Link
 from .models import DepartmentAdeo
 from .models import SubDepartmentAdeo
 from .models import ModelGroupAdeo
+from .models import LMCodeAttributeValue
 
 admin.site.register(Department)
 
@@ -20,3 +21,4 @@ admin.site.register(Attribute)
 admin.site.register(Value)
 admin.site.register(LMCode)
 admin.site.register(Link)
+admin.site.register(LMCodeAttributeValue)
