@@ -49,7 +49,7 @@ class LMCodeSerializer(serializers.ModelSerializer):
 class LinkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Link
-
+        fields = ['model', 'attribute', 'value']
 
 class DepartmentAdeoSerializer(serializers.ModelSerializer):
     class Meta:
@@ -72,3 +72,4 @@ class ModelGroupAdeoSerializer(serializers.ModelSerializer):
 class LMCodeAttributeValueSerializer(serializers.ModelSerializer):
     class Meta:
         model = LMCodeAttributeValue
+        fields = ["lm_code", "attribute", "value"]
