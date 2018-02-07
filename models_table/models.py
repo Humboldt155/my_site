@@ -30,7 +30,7 @@ class DepartmentAdeo(models.Model):
 class SubDepartmentAdeo(models.Model):
     id = models.CharField(max_length=12, primary_key=True, unique=True)
     name = models.CharField(max_length=60)
-    department_adeo = models.ForeignKey(DepartmentAdeo, on_delete=models.PROTECT)
+    department_adeo = models.ForeignKey(DepartmentAdeo, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["id"]
@@ -110,8 +110,8 @@ class LMCode(models.Model):
     id = models.CharField(max_length=8, primary_key=True, unique=True)
     name = models.CharField(max_length=200)
     avs = models.DateField(blank=True, null=True)
-    model = models.ForeignKey(Model, on_delete=models.PROTECT)
-    department = models.ForeignKey(Department, on_delete=models.PROTECT)
+    model = models.ForeignKey(Model, on_delete=models.CASCADE)
+    department = models.ForeignKey(Department, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["id"]
@@ -124,9 +124,9 @@ class LMCode(models.Model):
 
 # Link - принадлежность значений и атрибутов к моделям. Одной записи соответствует одно значение
 class Link(models.Model):
-    model = models.ForeignKey(Model, on_delete=models.PROTECT)
-    attribute = models.ForeignKey(Attribute, on_delete=models.PROTECT)
-    value = models.ForeignKey(Value, blank=True, on_delete=models.PROTECT)
+    model = models.ForeignKey(Model, on_delete=models.CASCADE)
+    attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
+    value = models.ForeignKey(Value, blank=True, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["value", "attribute", "model"]
