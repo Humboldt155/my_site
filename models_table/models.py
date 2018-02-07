@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Department(models.Model):
-    id = models.IntegerField(primary_key=True, unique=True)
+    id = models.CharField(max_length=2, primary_key=True, unique=True)
     name = models.CharField(max_length=40)
 
     class Meta:
@@ -107,7 +107,7 @@ class Value(models.Model):
 
 # LMCode
 class LMCode(models.Model):
-    id = models.IntegerField(primary_key=True, unique=True)
+    id = models.CharField(max_length=8, primary_key=True, unique=True)
     name = models.CharField(max_length=200)
     avs = models.DateField(blank=True, null=True)
     model = models.ForeignKey(Model, on_delete=models.PROTECT)
@@ -119,7 +119,7 @@ class LMCode(models.Model):
         verbose_name_plural = "Structure_4 lm коды"
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 # Link - принадлежность значений и атрибутов к моделям. Одной записи соответствует одно значение
