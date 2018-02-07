@@ -127,14 +127,9 @@ class Link(models.Model):
     model = models.ForeignKey(Model, on_delete=models.PROTECT)
     attribute = models.ForeignKey(Attribute, on_delete=models.PROTECT)
     value = models.ForeignKey(Value, blank=True, on_delete=models.PROTECT)
-    link_name = str(model) + " + " + str(attribute) + " + " + str(value)
 
     class Meta:
         ordering = ["value", "attribute", "model"]
-        unique_together = ("model", "attribute", "value")
         verbose_name = "связь"
         verbose_name_plural = "связи"
-
-    def __str__(self):
-        return self.link_name
 
