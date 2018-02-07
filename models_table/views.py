@@ -12,8 +12,7 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo, \
-    LMCodeAttributeValue
+    ModelGroupAdeo
 
 from .serializers import \
     DepartmentSerializer, \
@@ -24,8 +23,7 @@ from .serializers import \
     LinkSerializer, \
     DepartmentAdeoSerializer, \
     SubDepartmentAdeoSerializer, \
-    ModelGroupAdeoSerializer, \
-    LMCodeAttributeValueSerializer
+    ModelGroupAdeoSerializer
 
 
 # Create your views here.
