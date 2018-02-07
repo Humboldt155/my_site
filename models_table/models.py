@@ -43,8 +43,8 @@ class SubDepartmentAdeo(models.Model):
 
 class ModelGroupAdeo(models.Model):
     id = models.CharField(max_length=14, primary_key=True, unique=True)
-    name = models.CharField(max_length=60)
-    sub_department_adeo = models.ForeignKey(SubDepartmentAdeo, on_delete=models.PROTECT)
+    name = models.CharField(max_length=60, verbose_name="Название")
+    sub_department_adeo = models.ForeignKey(SubDepartmentAdeo, on_delete=models.CASCADE, verbose_name="Подкатегория Адео")
 
     class Meta:
         ordering = ["id"]
@@ -52,16 +52,16 @@ class ModelGroupAdeo(models.Model):
         verbose_name_plural = "Adeo_3 группы моделей"
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 # Model Adeo
 class Model(models.Model):
-    id = models.CharField(max_length=10, primary_key=True, unique=True)
-    french_name = models.CharField(max_length=200)
-    english_name = models.CharField(max_length=200)
-    russian_name = models.CharField(max_length=200)
-    model_group_adeo = models.ForeignKey('ModelGroupAdeo', on_delete=models.PROTECT)
+    id = models.CharField(max_length=10, primary_key=True, unique=True, verbose_name="Номер модели")
+    french_name = models.CharField(max_length=200, verbose_name="Наименование FRA")
+    english_name = models.CharField(max_length=200, verbose_name="Наименование ENG")
+    russian_name = models.CharField(max_length=200, , verbose_name="Наименование RUS")
+    model_group_adeo = models.ForeignKey('ModelGroupAdeo', on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["id"]
@@ -69,7 +69,7 @@ class Model(models.Model):
         verbose_name_plural = "Structure_1 модели Адео"
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 # Attribute
