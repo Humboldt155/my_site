@@ -61,7 +61,7 @@ class Model(models.Model):
     french_name = models.CharField(max_length=200, verbose_name="Наименование FRA")
     english_name = models.CharField(max_length=200, verbose_name="Наименование ENG")
     russian_name = models.CharField(max_length=200, verbose_name="Наименование RUS")
-    model_group_adeo = models.ForeignKey('ModelGroupAdeo', on_delete=models.CASCADE)
+    model_group_adeo = models.ForeignKey(ModelGroupAdeo, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["id"]
