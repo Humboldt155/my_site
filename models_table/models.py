@@ -102,7 +102,7 @@ class Value(models.Model):
         verbose_name_plural = "Structure_3 значения атрибутов"
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 # LMCode
