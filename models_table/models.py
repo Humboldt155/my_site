@@ -60,7 +60,7 @@ class Model(models.Model):
     id = models.CharField(max_length=10, primary_key=True, unique=True, verbose_name="Номер модели")
     french_name = models.CharField(max_length=200, verbose_name="Наименование FRA")
     english_name = models.CharField(max_length=200, verbose_name="Наименование ENG")
-    russian_name = models.CharField(max_length=200, , verbose_name="Наименование RUS")
+    russian_name = models.CharField(max_length=200, verbose_name="Наименование RUS")
     model_group_adeo = models.ForeignKey('ModelGroupAdeo', on_delete=models.CASCADE)
 
     class Meta:
