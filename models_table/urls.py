@@ -13,8 +13,7 @@ from .vuesets import \
     LinkVueSet, \
     DepartmentAdeoVueSet, \
     SubDepartmentAdeoVueSet, \
-    ModelGroupAdeoVueSet, \
-    LMCodeAttributeValueVueSet
+    ModelGroupAdeoVueSet
 
 router = routers.DefaultRouter()
 
@@ -27,7 +26,7 @@ router.register(r'links', LinkVueSet)
 router.register(r'departments_adeo', DepartmentAdeoVueSet)
 router.register(r'sub_departments_adeo', SubDepartmentAdeoVueSet)
 router.register(r'model_groups_adeo', ModelGroupAdeoVueSet)
-router.register(r'lm_codes_attributes_values', LMCodeAttributeValueVueSet)
+
 
 urlpatterns = [
     url(r'^', include(router.urls)),

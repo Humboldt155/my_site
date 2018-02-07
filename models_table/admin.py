@@ -10,7 +10,6 @@ from .models import Link
 from .models import DepartmentAdeo
 from .models import SubDepartmentAdeo
 from .models import ModelGroupAdeo
-from .models import LMCodeAttributeValue
 
 from .resources import DepartmentResource
 from .resources import ModelResource
@@ -21,7 +20,6 @@ from .resources import LinkResource
 from .resources import DepartmentAdeoResource
 from .resources import SubDepartmentAdeoResource
 from .resources import ModelGroupAdeoResource
-from .resources import LMCodeAttributeValueResource
 
 
 #admin.site.register(Department)
@@ -79,8 +77,4 @@ class LMCodeAdmin(ImportExportModelAdmin):
 class LinkAdmin(ImportExportModelAdmin):
     pass
 
-
-@admin.register(LMCodeAttributeValue)
-class LMCodeAttributeValueAdmin(ImportExportModelAdmin):
-    pass
 

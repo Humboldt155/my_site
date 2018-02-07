@@ -8,9 +8,7 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo, \
-    LMCodeAttributeValue
-
+    ModelGroupAdeo
 
 class DepartmentResource(resources.ModelResource):
     class Meta:
@@ -56,7 +54,3 @@ class ModelGroupAdeoResource(resources.ModelResource):
     class Meta:
         model = ModelGroupAdeo
 
-
-class LMCodeAttributeValueResource(resources.ModelResource):
-    class Meta:
-        model = LMCodeAttributeValue

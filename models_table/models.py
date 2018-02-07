@@ -119,7 +119,7 @@ class LMCode(models.Model):
         verbose_name_plural = "Structure_4 lm коды"
 
     def __str__(self):
-        return str(self.id)
+        return self.id
 
 
 # Link - принадлежность значений и атрибутов к моделям. Одной записи соответствует одно значение
@@ -138,7 +138,3 @@ class Link(models.Model):
     def __str__(self):
         return self.link_name
 
-class LMCodeAttributeValue(models.Model):
-    lm_code = models.ForeignKey(LMCode, on_delete=models.PROTECT)
-    attribute = models.ForeignKey(Attribute, on_delete=models.PROTECT)
-    value = models.CharField(max_length=200)

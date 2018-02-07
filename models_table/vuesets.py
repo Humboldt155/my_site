@@ -9,8 +9,8 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo, \
-    LMCodeAttributeValue
+    ModelGroupAdeo
+
 
 from .serializers import \
     DepartmentSerializer, \
@@ -21,8 +21,7 @@ from .serializers import \
     LinkSerializer, \
     DepartmentAdeoSerializer, \
     SubDepartmentAdeoSerializer, \
-    ModelGroupAdeoSerializer, \
-    LMCodeAttributeValueSerializer
+    ModelGroupAdeoSerializer
 
 
 class DepartmentVueSet(viewsets.ModelViewSet):
@@ -68,8 +67,3 @@ class SubDepartmentAdeoVueSet(viewsets.ModelViewSet):
 class ModelGroupAdeoVueSet(viewsets.ModelViewSet):
     queryset = ModelGroupAdeo.objects.all()
     serializer_class = ModelGroupAdeoSerializer
-
-
-class LMCodeAttributeValueVueSet(viewsets.ModelViewSet):
-    queryset = LMCodeAttributeValue.objects.all()
-    serializer_class = LMCodeAttributeValueSerializer
