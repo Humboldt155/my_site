@@ -14,6 +14,17 @@ from .models import \
     SubDepartmentAdeo, \
     ModelGroupAdeo
 
+from .filters import \
+    DepartmentFilter, \
+    ModelFilter, \
+    AttributeFilter, \
+    ValueFilter, \
+    LMCodeFilter, \
+    LinkFilter, \
+    DepartmentAdeoFilter, \
+    SubDepartmentAdeoFilter, \
+    ModelGroupAdeoFilter
+
 # Create your views here.
 
 

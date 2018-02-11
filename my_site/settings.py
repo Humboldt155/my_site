@@ -41,7 +41,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'import_export',
     'corsheaders',
+    'django_filters'
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',)
+}
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
