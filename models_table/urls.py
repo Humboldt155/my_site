@@ -28,8 +28,4 @@ router.register(r'sub_departments_adeo', SubDepartmentAdeoVueSet)
 router.register(r'model_groups_adeo', ModelGroupAdeoVueSet)
 
 
-urlpatterns = [
-    url(r'^', include(router.urls)),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^favicon\.ico$', favicon_view),
-]
+urlpatterns = router.urls

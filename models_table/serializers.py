@@ -20,49 +20,49 @@ from .models import \
 class DepartmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Department
-        fields = ["code", 'name']
+        fields = ["id", 'name']
 
 
 class ModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Model
-        fields = ["code", 'french_name', 'english_name', 'russian_name', 'model_group_adeo']
+        fields = ["id", 'french_name', 'english_name', 'russian_name', 'model_group_adeo']
 
 class AttributeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Attribute
-        fields = ["code", 'french_name', 'english_name', 'russian_name']
+        fields = ["id", 'french_name', 'english_name', 'russian_name']
 
 
 class ValueSerializer(serializers.ModelSerializer):
     class Meta:
         model = Value
-        fields = ["code", 'french_name', 'english_name', 'russian_name']
+        fields = ["id", 'french_name', 'english_name', 'russian_name']
 
 class LMCodeSerializer(serializers.ModelSerializer):
     class Meta:
         model = LMCode
-        fields= ['code', 'name', 'avs', 'model', 'department']
+        fields= ['id', 'name', 'avs', 'model', 'department']
 
 
 class LinkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Link
-        fields = ['model', 'attribute', 'value']
+        fields = ['id', 'model', 'attribute', 'value']
 
 class DepartmentAdeoSerializer(serializers.ModelSerializer):
     class Meta:
         model = DepartmentAdeo
-        fields = ["code", 'name']
+        fields = ["id", 'name']
 
 
 class SubDepartmentAdeoSerializer(serializers.ModelSerializer):
     class Meta:
         model = SubDepartmentAdeo
-        fields = ["code", 'name', 'department_adeo']
+        fields = ["id", 'name', 'department_adeo']
 
 
 class ModelGroupAdeoSerializer(serializers.ModelSerializer):
     class Meta:
         model = ModelGroupAdeo
-        fields = ["code", 'name', 'sub_department_adeo']
+        fields = ["id", 'name', 'sub_department_adeo']
