@@ -1,4 +1,5 @@
 from rest_framework import viewsets
+from django_filters.rest_framework import DjangoFilterBackend
 
 from .models import \
     Department,\
@@ -27,6 +28,9 @@ from .serializers import \
 class DepartmentVueSet(viewsets.ModelViewSet):
     queryset = Department.objects.all()
     serializer_class = DepartmentSerializer
+    filter_backends = (DjangoFilterBackend,)
+    filter_fields = ('id', 'name')
+
 
 
 class ModelVueSet(viewsets.ModelViewSet):
