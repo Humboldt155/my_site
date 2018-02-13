@@ -1,69 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b4e9ad-3920-48ce-ad9c-ca660ed257d4" name="Default" comment="15">
-      <change beforePath="" afterPath="$PROJECT_DIR$/models_table/migrations/0016_codevalue.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models_table/migrations/0017_auto_20180213_2223.py" />
+    <list default="true" id="14b4e9ad-3920-48ce-ad9c-ca660ed257d4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LMdatabase" afterPath="$PROJECT_DIR$/LMdatabase" />
-      <change beforePath="$PROJECT_DIR$/models_table/admin.py" afterPath="$PROJECT_DIR$/models_table/admin.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/filters.py" afterPath="$PROJECT_DIR$/models_table/filters.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/models.py" afterPath="$PROJECT_DIR$/models_table/models.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/resources.py" afterPath="$PROJECT_DIR$/models_table/resources.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/serializers.py" afterPath="$PROJECT_DIR$/models_table/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/urls.py" afterPath="$PROJECT_DIR$/models_table/urls.py" />
-      <change beforePath="$PROJECT_DIR$/models_table/vuesets.py" afterPath="$PROJECT_DIR$/models_table/vuesets.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/include/python3.6m" afterPath="$PROJECT_DIR$/my_site_env/include/python3.6m" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/__future__.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/__future__.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_bootlocale.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_bootlocale.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_collections_abc.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_collections_abc.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_dummy_thread.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_dummy_thread.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_weakrefset.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_weakrefset.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/abc.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/abc.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/base64.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/base64.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/bisect.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/bisect.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/codecs.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/codecs.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/collections" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/collections" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/config-3.6m-x86_64-linux-gnu" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/config-3.6m-x86_64-linux-gnu" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/copy.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/copy.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/copyreg.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/copyreg.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/encodings" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/encodings" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/enum.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/enum.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/fnmatch.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/fnmatch.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/functools.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/functools.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/genericpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/genericpath.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/hashlib.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/hashlib.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/heapq.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/heapq.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/hmac.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/hmac.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/imp.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/imp.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/importlib" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/importlib" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/io.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/io.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/keyword.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/keyword.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/lib-dynload" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/lib-dynload" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/linecache.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/linecache.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/locale.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/locale.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/ntpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/ntpath.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/operator.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/operator.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/os.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/os.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/posixpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/posixpath.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/random.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/random.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/re.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/re.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/reprlib.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/reprlib.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/rlcompleter.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/rlcompleter.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/shutil.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/shutil.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_compile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_compile.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_constants.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_constants.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_parse.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_parse.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/stat.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/stat.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/struct.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/struct.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tarfile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tarfile.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tempfile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tempfile.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/token.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/token.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tokenize.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tokenize.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/types.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/types.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/warnings.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/warnings.py" />
-      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/weakref.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/weakref.py" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -180,8 +119,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models_table/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -244,9 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="886" />
-    <option name="y" value="58" />
-    <option name="width" value="1539" />
+    <option name="x" value="50" />
+    <option name="y" value="82" />
+    <option name="width" value="1306" />
     <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -749,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518375183685</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="16">
+      <created>1518550309642</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1518550309642</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -762,8 +708,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="886" y="58" width="1539" height="1172" extended-state="0" />
-    <editor active="true" />
+    <frame x="50" y="82" width="1306" height="1172" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -771,7 +716,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35844994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2271832" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26821706" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.261443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@my_site_backend" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29461756" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -840,7 +785,8 @@
     <MESSAGE value="13" />
     <MESSAGE value="14" />
     <MESSAGE value="15" />
-    <option name="LAST_COMMIT_MESSAGE" value="15" />
+    <MESSAGE value="16" />
+    <option name="LAST_COMMIT_MESSAGE" value="16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1400,8 +1346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models_table/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding />
         </state>
       </provider>
