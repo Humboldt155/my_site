@@ -126,10 +126,19 @@ class LMCode(models.Model):
 class Link(models.Model):
     model = models.ForeignKey(Model, on_delete=models.CASCADE)
     attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
-    value = models.ForeignKey(Value, blank=True, on_delete=models.CASCADE)
+    value = models.ForeignKey(Value, blank=True, null=True, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["value", "attribute", "model"]
         verbose_name = "связь"
         verbose_name_plural = "связи"
 
+class CodeValue(models.Model):
+    lmcode = models.ForeignKey(LMCode, on_delete=models.CASCADE)
+    attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
+    value = models.CharField(max_length=200, blank=True, null=True)
+
+    class Meta:
+        ordering = ["lmcode"]
+        verbose_name = "Значение для кода"
+        verbose_name_plural = "Значения для кодов"

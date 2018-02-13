@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b4e9ad-3920-48ce-ad9c-ca660ed257d4" name="Default" comment="">
+    <list default="true" id="14b4e9ad-3920-48ce-ad9c-ca660ed257d4" name="Default" comment="15">
+      <change beforePath="" afterPath="$PROJECT_DIR$/models_table/migrations/0016_codevalue.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/models_table/migrations/0017_auto_20180213_2223.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LMdatabase" afterPath="$PROJECT_DIR$/LMdatabase" />
+      <change beforePath="$PROJECT_DIR$/models_table/admin.py" afterPath="$PROJECT_DIR$/models_table/admin.py" />
+      <change beforePath="$PROJECT_DIR$/models_table/filters.py" afterPath="$PROJECT_DIR$/models_table/filters.py" />
+      <change beforePath="$PROJECT_DIR$/models_table/models.py" afterPath="$PROJECT_DIR$/models_table/models.py" />
+      <change beforePath="$PROJECT_DIR$/models_table/resources.py" afterPath="$PROJECT_DIR$/models_table/resources.py" />
       <change beforePath="$PROJECT_DIR$/models_table/serializers.py" afterPath="$PROJECT_DIR$/models_table/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/models_table/urls.py" afterPath="$PROJECT_DIR$/models_table/urls.py" />
       <change beforePath="$PROJECT_DIR$/models_table/vuesets.py" afterPath="$PROJECT_DIR$/models_table/vuesets.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/include/python3.6m" afterPath="$PROJECT_DIR$/my_site_env/include/python3.6m" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/__future__.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/__future__.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_bootlocale.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_bootlocale.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_collections_abc.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_collections_abc.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_dummy_thread.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_dummy_thread.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/_weakrefset.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/_weakrefset.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/abc.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/abc.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/base64.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/base64.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/bisect.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/bisect.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/codecs.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/codecs.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/collections" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/collections" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/config-3.6m-x86_64-linux-gnu" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/config-3.6m-x86_64-linux-gnu" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/copy.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/copy.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/copyreg.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/copyreg.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/encodings" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/encodings" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/enum.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/enum.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/fnmatch.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/fnmatch.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/functools.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/functools.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/genericpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/genericpath.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/hashlib.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/hashlib.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/heapq.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/heapq.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/hmac.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/hmac.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/imp.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/imp.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/importlib" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/importlib" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/io.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/io.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/keyword.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/keyword.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/lib-dynload" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/lib-dynload" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/linecache.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/linecache.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/locale.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/locale.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/ntpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/ntpath.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/operator.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/operator.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/os.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/os.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/posixpath.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/posixpath.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/random.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/random.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/re.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/re.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/reprlib.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/reprlib.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/rlcompleter.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/rlcompleter.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/shutil.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/shutil.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_compile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_compile.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_constants.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_constants.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_parse.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/sre_parse.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/stat.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/stat.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/struct.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/struct.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tarfile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tarfile.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tempfile.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tempfile.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/token.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/token.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/tokenize.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/tokenize.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/types.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/types.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/warnings.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/warnings.py" />
+      <change beforePath="$PROJECT_DIR$/my_site_env/lib/python3.6/weakref.py" afterPath="$PROJECT_DIR$/my_site_env/lib/python3.6/weakref.py" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +74,24 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -32,11 +102,19 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,8 +122,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,8 +132,8 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="597">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#239#277#0" expanded="true" />
               </folding>
@@ -63,45 +141,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models_table/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="filters.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/filters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="495">
+              <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
               <folding>
-                <element signature="e#0#172#0" expanded="true" />
+                <element signature="e#0#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models_table/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="33" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vuesets.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vuesets.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/vuesets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="597">
+              <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -109,32 +165,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models_table/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models_table/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="resources.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models_table/resources.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="563">
+              <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models_table/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models_table/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,17 +223,17 @@
         <option value="$PROJECT_DIR$/models_table/management/commands/import_from_xls.py" />
         <option value="$PROJECT_DIR$/../Обновление/BDD RMS13 20180130_csv.csv" />
         <option value="$PROJECT_DIR$/../Обновление/BDD RMS13 20180130_csv2.csv" />
-        <option value="$PROJECT_DIR$/models_table/resources.py" />
-        <option value="$PROJECT_DIR$/models_table/admin.py" />
-        <option value="$PROJECT_DIR$/models_table/models.py" />
-        <option value="$PROJECT_DIR$/models_table/urls.py" />
         <option value="$PROJECT_DIR$/my_site/urls.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/models_table/filters.py" />
         <option value="$PROJECT_DIR$/my_site/settings.py" />
         <option value="$PROJECT_DIR$/models_table/views.py" />
-        <option value="$PROJECT_DIR$/models_table/vuesets.py" />
         <option value="$PROJECT_DIR$/models_table/serializers.py" />
+        <option value="$PROJECT_DIR$/models_table/filters.py" />
+        <option value="$PROJECT_DIR$/models_table/resources.py" />
+        <option value="$PROJECT_DIR$/models_table/admin.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/models_table/vuesets.py" />
+        <option value="$PROJECT_DIR$/models_table/urls.py" />
+        <option value="$PROJECT_DIR$/models_table/models.py" />
       </list>
     </option>
   </component>
@@ -184,10 +244,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="120" />
-    <option name="width" value="1306" />
-    <option name="height" value="1093" />
+    <option name="x" value="886" />
+    <option name="y" value="58" />
+    <option name="width" value="1539" />
+    <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,6 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,8 +288,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +296,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="DepartmentVueSet&#9;null&#9;null&#10;ListAPIView&#9;null&#9;null&#10;LMCodeAttributeValue&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="LMCode&#9;null&#9;null&#10;DepartmentVueSet&#9;null&#9;null&#10;ListAPIView&#9;null&#9;null&#10;LMCodeAttributeValue&#9;null&#9;null" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -682,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518374805822</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="14">
+      <created>1518375183685</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1518375183685</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -695,23 +762,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="120" width="1306" height="1093" extended-state="0" />
+    <frame x="886" y="58" width="1539" height="1172" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35844994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26821706" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2271832" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@my_site_backend" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29489797" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.261443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@my_site_backend" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29461756" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -771,7 +838,9 @@
     <MESSAGE value="11" />
     <MESSAGE value="12" />
     <MESSAGE value="13" />
-    <option name="LAST_COMMIT_MESSAGE" value="13" />
+    <MESSAGE value="14" />
+    <MESSAGE value="15" />
+    <option name="LAST_COMMIT_MESSAGE" value="15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -780,37 +849,20 @@
           <url>file://$PROJECT_DIR$/models_table/admin.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models_table/filters.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models_table/urls.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models_table/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-          <folding>
-            <element signature="e#239#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models_table/vuesets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -837,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,9 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#641#682#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,9 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#641#682#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,9 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#641#682#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,15 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,19 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="e#641#682#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,33 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,41 +1130,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models_table/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+    <entry file="das://table:/e39d00d1/21770ce2-98bd-49ae-a09f-c588c94715d8/main.models_table_lmcode">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode</OriginalElement>
+          <nodes>
+            <node x="15.0" y="124.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo</node>
+            <node x="9.0" y="416.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model</node>
+            <node x="150.0" y="606.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode</node>
+            <node x="264.0" y="449.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department</node>
+            <node x="0.0" y="270.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo</node>
+            <node x="29.0" y="0.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_departmentadeo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_departmentadeo">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model">
+              <point x="-43.75" y="-70.0" />
+              <point x="193.75" y="581.0" />
+              <point x="126.5" y="581.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department">
+              <point x="43.75" y="-70.0" />
+              <point x="281.25" y="581.0" />
+              <point x="348.5" y="581.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5542725173210161" x="209.0" y="386.00000000000006" />
+          <SelectedNodes>
+            <node>21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/21770ce2-98bd-49ae-a09f-c588c94715d8.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>21770ce2-98bd-49ae-a09f-c588c94715d8.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="391.0" y="1314.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_user_permissions</node>
+            <node x="576.9991799917999" y="633.5563755637556">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode</node>
+            <node x="575.0046296296297" y="1014.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_permission</node>
+            <node x="216.0" y="416.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_attribute</node>
+            <node x="0.0" y="1259.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_admin_log</node>
+            <node x="423.0" y="270.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo</node>
+            <node x="406.14351851851853" y="1036.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group</node>
+            <node x="194.01388888888889" y="937.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user</node>
+            <node x="994.4907407407406" y="791.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_migrations</node>
+            <node x="438.0" y="124.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo</node>
+            <node x="284.7777777777778" y="791.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_content_type</node>
+            <node x="592.4907407407406" y="1314.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group_permissions</node>
+            <node x="805.4907407407406" y="791.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.sqlite_master</node>
+            <node x="1191.4907407407406" y="791.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_session</node>
+            <node x="452.0" y="0.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_departmentadeo</node>
+            <node x="432.0" y="416.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model</node>
+            <node x="0.0" y="427.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_value</node>
+            <node x="227.0" y="617.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_link</node>
+            <node x="687.0" y="449.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department</node>
+            <node x="230.0" y="1314.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_groups</node>
+            <node x="1415.4907407407406" y="791.0">21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.sqlite_sequence</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_link" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_attribute">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_user_permissions" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_permission">
+              <point x="44.5" y="-48.0" />
+              <point x="524.5" y="1239.0" />
+              <point x="620.5046296296297" y="1239.0" />
+              <point x="-45.5" y="59.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_admin_log" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_content_type">
+              <point x="-52.5" y="-103.0" />
+              <point x="52.5" y="912.0" />
+              <point x="327.7777777777778" y="912.0" />
+              <point x="-43.0" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_user_permissions" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user">
+              <point x="-44.5" y="-48.0" />
+              <point x="435.5" y="1229.0" />
+              <point x="340.68055555555554" y="1229.0" />
+              <point x="58.66666666666663" y="136.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_admin_log" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user">
+              <point x="52.5" y="-103.0" />
+              <point x="157.5" y="1239.0" />
+              <point x="223.34722222222223" y="1239.0" />
+              <point x="-58.66666666666666" y="136.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_groups" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user">
+              <point x="-35.25" y="-48.0" />
+              <point x="265.25" y="1239.0" />
+              <point x="282.0138888888889" y="1239.0" />
+              <point x="0.0" y="136.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model">
+              <point x="-43.75" y="-70.0" />
+              <point x="648.3055555555557" y="581.0" />
+              <point x="608.25" y="581.0" />
+              <point x="58.75" y="70.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_permission" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.django_content_type">
+              <point x="-5.6843418860808015E-14" y="-59.0" />
+              <point x="666.0046296296296" y="912.0" />
+              <point x="413.77777777777777" y="912.0" />
+              <point x="42.99999999999997" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_departmentadeo">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_subdepartmentadeo">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_modelgroupadeo">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_lmcode" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department">
+              <point x="43.75" y="-70.0" />
+              <point x="735.8055555555557" y="581.0" />
+              <point x="771.5" y="581.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group_permissions" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group">
+              <point x="-42.0" y="-48.0" />
+              <point x="634.4907407407406" y="1229.0" />
+              <point x="515.6435185185185" y="1229.0" />
+              <point x="36.5" y="37.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_user_groups" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group">
+              <point x="35.25" y="-48.0" />
+              <point x="335.75" y="1239.0" />
+              <point x="442.64351851851853" y="1239.0" />
+              <point x="-36.5" y="37.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_link" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_value">
+              <point x="-58.0" y="-59.0" />
+              <point x="256.0" y="581.0" />
+              <point x="98.0" y="581.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_link" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_model">
+              <point x="58.0" y="-59.0" />
+              <point x="372.0" y="581.0" />
+              <point x="490.75" y="581.0" />
+              <point x="-58.75" y="70.0" />
+            </edge>
+            <edge source="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_group_permissions" target="21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.auth_permission">
+              <point x="42.0" y="-48.0" />
+              <point x="718.4907407407406" y="1239.0" />
+              <point x="711.5046296296296" y="1239.0" />
+              <point x="45.49999999999994" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.30947775628626695" x="765.4999999999999" y="732.5" />
+          <SelectedNodes>
+            <node>21770ce2-98bd-49ae-a09f-c588c94715d8.TABLE:main.models_table_department</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models_table/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_table/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models_table/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="597">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="e#239#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models_table/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models_table/vuesets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="597">
+          <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_table/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_table/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models_table/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

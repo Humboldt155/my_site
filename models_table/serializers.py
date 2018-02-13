@@ -14,7 +14,8 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo
+    ModelGroupAdeo, \
+    CodeValue
 
 
 class DepartmentSerializer(serializers.ModelSerializer):
@@ -66,3 +67,8 @@ class ModelGroupAdeoSerializer(serializers.ModelSerializer):
     class Meta:
         model = ModelGroupAdeo
         fields = ['id', 'name', 'sub_department_adeo']
+
+class CodeValueSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CodeValue
+        fields = ['id', 'lmcode', 'attribute', 'value']

@@ -10,6 +10,7 @@ from .models import Link
 from .models import DepartmentAdeo
 from .models import SubDepartmentAdeo
 from .models import ModelGroupAdeo
+from .models import CodeValue
 
 from .resources import DepartmentResource
 from .resources import ModelResource
@@ -77,4 +78,6 @@ class LMCodeAdmin(ImportExportModelAdmin):
 class LinkAdmin(ImportExportModelAdmin):
     pass
 
-
+@admin.register(CodeValue)
+class CodeValueAdmin(ImportExportModelAdmin):
+    pass

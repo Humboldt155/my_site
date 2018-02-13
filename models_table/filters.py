@@ -7,7 +7,8 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo
+    ModelGroupAdeo, \
+    CodeValue
 
 import django_filters
 
@@ -24,12 +25,12 @@ class ModelFilter(django_filters.FilterSet):
 class AttributeFilter(django_filters.FilterSet):
     class Meta:
         model = Attribute
-        fields = ["id", 'french_name', 'english_name', 'russian_name']
+        fields = ['id', 'french_name', 'english_name', 'russian_name']
 
 class ValueFilter(django_filters.FilterSet):
     class Meta:
         model = Value
-        fields = ["id", 'french_name', 'english_name', 'russian_name']
+        fields = ['id', 'french_name', 'english_name', 'russian_name']
 
 class LMCodeFilter(django_filters.FilterSet):
     class Meta:
@@ -44,15 +45,21 @@ class LinkFilter(django_filters.FilterSet):
 class DepartmentAdeoFilter(django_filters.FilterSet):
     class Meta:
         model = DepartmentAdeo
-        fields = ["id", 'name']
+        fields = ['id', 'name']
 
 class SubDepartmentAdeoFilter(django_filters.FilterSet):
     class Meta:
         model = SubDepartmentAdeo
-        fields = ["id", 'name', 'department_adeo']
+        fields = ['id', 'name', 'department_adeo']
 
 
 class ModelGroupAdeoFilter(django_filters.FilterSet):
     class Meta:
         model = ModelGroupAdeo
-        fields = ["id", 'name', 'sub_department_adeo']
+        fields = ['id', 'name', 'sub_department_adeo']
+
+
+class CodeValueFilter(django_filters.FilterSet):
+    class Meta:
+        model = CodeValue
+        fields = ['id', 'lmcode', 'attribute', 'value']

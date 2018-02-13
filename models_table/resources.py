@@ -8,7 +8,8 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo
+    ModelGroupAdeo, \
+    CodeValue
 
 class DepartmentResource(resources.ModelResource):
     class Meta:
@@ -72,3 +73,8 @@ class ModelGroupAdeoResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = False
 
+class CodeValueResource(resources.ModelResource):
+    class Meta:
+        model = CodeValue
+        skip_unchanged = True
+        report_skipped = False

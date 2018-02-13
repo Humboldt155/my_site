@@ -10,7 +10,8 @@ from .models import \
     Link, \
     DepartmentAdeo, \
     SubDepartmentAdeo, \
-    ModelGroupAdeo
+    ModelGroupAdeo, \
+    CodeValue
 
 
 from .serializers import \
@@ -22,7 +23,8 @@ from .serializers import \
     LinkSerializer, \
     DepartmentAdeoSerializer, \
     SubDepartmentAdeoSerializer, \
-    ModelGroupAdeoSerializer
+    ModelGroupAdeoSerializer, \
+    CodeValueSerializer
 
 
 class DepartmentVueSet(viewsets.ModelViewSet):
@@ -86,3 +88,9 @@ class ModelGroupAdeoVueSet(viewsets.ModelViewSet):
     serializer_class = ModelGroupAdeoSerializer
     filter_backends = (DjangoFilterBackend,)
     filter_fields = ('id', 'name', 'sub_department_adeo')
+
+class CodeValueVueSet(viewsets.ModelViewSet):
+    queryset = CodeValue.objects.all()
+    serializer_class = CodeValueSerializer
+    filter_backends = (DjangoFilterBackend,)
+    filter_fields = ('id', 'lmcode', 'attribute', 'value')
