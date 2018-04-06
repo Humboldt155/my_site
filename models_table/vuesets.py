@@ -46,7 +46,7 @@ class AttributeVueSet(viewsets.ModelViewSet):
     queryset = Attribute.objects.all()
     serializer_class = AttributeSerializer
     filter_backends = (DjangoFilterBackend,)
-    filter_fields = ('id', 'french_name', 'english_name', 'russian_name')
+    filter_fields = ('id', 'is_open', 'french_name', 'english_name', 'russian_name')
 
 
 class ValueVueSet(viewsets.ModelViewSet):

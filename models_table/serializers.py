@@ -32,7 +32,7 @@ class ModelSerializer(serializers.ModelSerializer):
 class AttributeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Attribute
-        fields = ['id', 'french_name', 'english_name', 'russian_name']
+        fields = ['id', 'is_open', 'french_name', 'english_name', 'russian_name']
 
 
 class ValueSerializer(serializers.ModelSerializer):

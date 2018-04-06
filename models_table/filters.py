@@ -25,7 +25,7 @@ class ModelFilter(django_filters.FilterSet):
 class AttributeFilter(django_filters.FilterSet):
     class Meta:
         model = Attribute
-        fields = ['id', 'french_name', 'english_name', 'russian_name']
+        fields = ['id', 'is_open', 'french_name', 'english_name', 'russian_name']
 
 class ValueFilter(django_filters.FilterSet):
     class Meta:
